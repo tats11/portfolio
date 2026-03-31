@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mr. Amit Chadha - Music Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f0f0f;
+color:white;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#000;
+padding:17px 42px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+nav h2{
+color:#ff4d5a;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:20px;
+}
+
+header{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:left;
+padding:40px;
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url('music-bg.jpg');
+background-size:cover;
+background-position:center;
+}
+
+.hero{
+display:flex;
+align-items:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.profile-img{
+width:450px;
+height:450px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #ff4d5a;
+}
+
+.hero-text h1{
+font-size:50px;
+}
+
+.hero-text p{
+margin-top:15px;
+font-size:25px;
+color:#ccc;
+}
+
+section{
+padding:80px 60px;
+}
+
+.about{
+background:#141414;
+}
+
+.about h2{
+font-size:38px;
+margin-bottom:20px;
+}
+
+.about p{
+max-width:900px;
+line-height:1.7;
+color:#ccc;
+}
+
+.videos{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.video-thumb{
+width:100%;
+border-radius:12px;
+}
+
+.contact{
+background:#141414;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:20px;
+color:#aaa;
+}
+
+@media(max-width:768px){
+.hero{
+flex-direction:column;
+text-align:center;
+}
+.hero-text h1{
+font-size:34px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Amit Chadha</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#videos">Videos</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<header>
+<div class="hero">
+<img src="profile.jpg" class="profile-img" alt="Mr Amit Chadha">
+
+<div class="hero-text">
+<h1>Mr. Amit Chadha</h1>
+<p>Professional Singer | Pianist | stage performer</p>
+</div>
+
+</div>
+</header>
+
+<section id="about" class="about">
+<h2>About Me</h2>
+<p>
+My name is Mr. Amit Chadha and I am a professional musician with more than 20 years of experience in the field of music. I started my professional journey in 2002 and since then I have been actively performing, teaching and working in the music industry.
+
+I hold a Master's degree in Music and have worked as a music teacher in well-known schools including Mayor World School, Innocent Hearts School, Eklavya School and British Olivia School. Along with teaching, I have been continuously performing in live shows and musical events.
+
+I have also worked internationally and performed in Bangkok on two different occasions. My goal is to continue spreading music through live performances, teaching and professional shows.
+</p>
+</section>
+
+<section id="skills">
+<h2 style="font-size:38px;margin-bottom:25px;">My Skills</h2>
+
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px;">
+
+<div style="background:#1c1c1c;padding:25px;border-radius:12px;text-align:center;">
+<div style="font-size:40px;margin-bottom:10px;">🎤</div>
+<h3 style="color:#ff4d5a;margin-bottom:10px;">Professional Singing</h3>
+<p style="color:#ccc;">Live performances, stage shows and studio singing.</p>
+</div>
+
+<div style="background:#1c1c1c;padding:25px;border-radius:12px;text-align:center;">
+<div style="font-size:40px;margin-bottom:10px;">🎹</div>
+<h3 style="color:#ff4d5a;margin-bottom:10px;">Piano Performance</h3>
+<p style="color:#ccc;">Professional piano performance for concerts and events.</p>
+</div>
+
+<div style="background:#1c1c1c;padding:25px;border-radius:12px;text-align:center;">
+<div style="font-size:40px;margin-bottom:10px;">🎼</div>
+<h3 style="color:#ff4d5a;margin-bottom:10px;">Music Teaching</h3>
+<p style="color:#ccc;">20+ years of experience teaching music in schools.</p>
+</div>
+
+<div style="background:#1c1c1c;padding:25px;border-radius:12px;text-align:center;">
+<div style="font-size:40px;margin-bottom:10px;">🎶</div>
+<h3 style="color:#ff4d5a;margin-bottom:10px;">Live Shows</h3>
+<p style="color:#ccc;">Stage shows, musical events and international performances.</p>
+</div>
+
+</div>
+</section>
+
+<section id="videos">
+<h2 style="font-size:38px;margin-bottom:25px;">My Performances</h2>
+
+<div class="videos">
+
+<a href="https://www.youtube.com/watch?v=qjjqZ5VUnug" target="_blank">
+<img src="https://img.youtube.com/vi/qjjqZ5VUnug/hqdefault.jpg" class="video-thumb">
+</a>
+
+<a href="https://www.youtube.com/watch?v=VzNrs0iwsL8" target="_blank">
+<img src="https://img.youtube.com/vi/VzNrs0iwsL8/hqdefault.jpg" class="video-thumb">
+</a>
+
+<a href="https://www.youtube.com/watch?v=sobgQddBVq4" target="_blank">
+<img src="https://img.youtube.com/vi/sobgQddBVq4/hqdefault.jpg" class="video-thumb">
+</a>
+
+</div>
+</section>
+
+<section style="text-align:center;padding:60px 20px;background:#0f0f0f;">
+<h2 style="font-size:36px;margin-bottom:20px;">Book Me For Live Shows</h2>
+<p style="color:#ccc;margin-bottom:25px;">Available for Concerts, Weddings, Live Events and Music Shows</p>
+
+<a href="mailto:alivemusic@gmail.com" style="display:inline-block;background:#ff4d5a;color:white;padding:15px 35px;border-radius:30px;text-decoration:none;font-size:18px;font-weight:600;">
+Book Now (Email)
+</a>
+
+<br><br>
+
+<a href="https://wa.me/919815442424" target="_blank" style="display:inline-block;background:#25D366;color:white;padding:15px 35px;border-radius:30px;text-decoration:none;font-size:18px;font-weight:600;">
+Book on WhatsApp
+</a>
+</section>
+
+<section id="contact" class="contact">
+<h2 style="font-size:38px;margin-bottom:20px;">Contact</h2>
+<p>Email: alivemusic@gmail.com</p>
+<p>Phone: +91 9815442424</p>
+<p>Available for Live Shows, Events and Music Classes</p>
+</section>
+
+<footer>
+© 2026 Mr. Amit Chadha | Professional Music Portfolio
+</footer>
+
+</body>
+</html>
